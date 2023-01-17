@@ -1,0 +1,70 @@
+/*--Comments--*/
+
+.comment__stats{
+    display: flex;
+    margin: 3rem 0;
+  }
+  
+  .comment__stats p{
+    margin-right: 2rem;
+  }
+  
+  .comment__box{
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .comment__box input{
+    border: 1px solid rgb(46, 170, 62);
+   
+    width: 100%;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding: 10px 10px;
+  }
+  .comment__box input:focus{
+    border: 1px solid rgb(46, 156, 170);
+
+  }
+  .comment__box input:active{
+    border: 1px solid rgb(46, 156, 170);
+
+  }
+  
+  .comment {
+    display: flex;
+    margin-top: 3rem;
+  }
+  
+  .comment p{
+    font-size: 1.4rem;
+  }
+  
+  .comment__display img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 .5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .comment__details > * {
+    margin-bottom: 1.5rem;
+  }
+  
+  .comment__details a i {
+    margin-left: 1rem;
+  }
+  
+  .section__controls > * {
+    margin-right: 1rem;
+  }
+  
+  .section__controls i {
+    font-size: 1.4rem;
+    color: rgb(24, 223, 90);
+  }
+  
+  
