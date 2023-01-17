@@ -1,0 +1,24 @@
+.btnSubmit{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(29, 216, 85);
+}
+.title{
+    border-bottom: 2px solid rgb(25, 96, 201);
+}
+.upload-header{
+    display: flex;
+    align-items: center;
+}
+.play-list{
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.upload-header a:hover{
+    text-decoration: none;
+    color: rgb(29, 216, 85);
+}
