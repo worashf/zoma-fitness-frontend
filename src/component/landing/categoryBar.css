@@ -1,0 +1,36 @@
+
+.categoriesBar {
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+ 
+    display: flex;
+    overflow-x: scroll;
+ 
+    justify-content: center;
+    scrollbar-width: none;
+}
+.categoriesBar 
+    span {
+        background-color: rgba(237, 238, 237, 0);
+        width: 120px;
+       margin-right: 1rem;
+       padding: 0.5rem;
+      font-size: 20px;
+       white-space: nowrap;
+       border: 1.5px solid #374a59;
+       border-radius: 10px;
+       align-items: center;
+    }
+    .categoriesBar 
+    span:hover {
+          background-color: #3c9e59;
+       }
+ 
+       .categoriesBar 
+       span.active {
+          color: #fff;
+          background-color: #606060;
+          border-color: #606060;
+       }
+    
+ 
