@@ -1,0 +1,27 @@
+
+.infoBtn{
+    text-decoration: none;
+    background: rgb(8, 185, 102);
+    padding: 10px 10px;
+    border-radius: 10px ;
+    
+    
+}
+.infoBtn:hover{
+ text-decoration: none;
+ background: rgb(23, 115, 177);
+ padding: 10px 10px;
+ border-radius: 10px ;
+}
+.top{
+    margin-top: none;
+}
+
+/* responsive  mode*/
+
+
+@media screen and (max-width: 640px){
+ .top{
+     margin-top: 10px;
+ }   
+}
